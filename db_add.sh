@@ -1,5 +1,8 @@
 #!/bin/bash
 
+rm x86_64/hunterrepo.db
+rm x86_64/hunterrepo.files
+
 echo "[+] Adding new package to database"
 
 repo-add x86_64/hunterrepo.db.tar.gz x86_64/*.pkg.tar.zst
